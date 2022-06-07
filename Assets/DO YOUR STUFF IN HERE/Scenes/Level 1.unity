@@ -230,7 +230,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c7ce37ea084f11745a9cca7aabaf4563,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7ce37ea084f11745a9cca7aabaf4563,
         type: 3}
@@ -1562,7 +1562,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1789788414
 GameObject:
@@ -1655,7 +1655,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 19.471, y: -218.06, z: 2.517}
 --- !u!1 &1886301106
 GameObject:
@@ -7985,7 +7985,7 @@ Transform:
   - {fileID: 2365087099379402656}
   - {fileID: 2365087099939140599}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!96 &2365087100680535432
 TrailRenderer:
@@ -9845,7 +9845,7 @@ Transform:
   - {fileID: 792718225052384226}
   - {fileID: 73465652002270248}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -30, z: 0}
 --- !u!23 &8460566792814609106
 MeshRenderer:
