@@ -3,7 +3,27 @@ guid: bd7a3ba3ef901c749b8a10555ac5e17f
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green Chinese Tree
+    second: {fileID: 2100000, guid: 85a0dd21c2f711a40a794ed322562ddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak Tree
+    second: {fileID: 2100000, guid: 1e5b4a23332535e47b967cc20399de4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Tree
+    second: {fileID: 2100000, guid: d494569849efb644daee44b270917166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wisteria.001
+    second: {fileID: 2100000, guid: c2bfb82e1b36c9b4ea84a8dbd48673f3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
