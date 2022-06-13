@@ -11,7 +11,7 @@ public class VehicleCamera : MonoBehaviour{
 	
 	[Header("Components")]
 	
-	public Transform rig;
+	public Transform ChaseCamera;
 	
 	[Header("Settings")]
 	
@@ -35,12 +35,12 @@ public class VehicleCamera : MonoBehaviour{
 		
 		// Remember offset set in editor
 		
-		cameraPositionOffset = rig.localPosition;
-		cameraRotationOffset = rig.localEulerAngles;
+		cameraPositionOffset = ChaseCamera.localPosition;
+		cameraRotationOffset = ChaseCamera.localEulerAngles;
 		
 		// Get camera
 		
-		vehicleCamera = rig.GetChild(0).GetComponent<Camera>();
+		vehicleCamera = ChaseCamera.GetComponent<Camera>();
 		
 		// Set camera
 		
@@ -73,8 +73,8 @@ public class VehicleCamera : MonoBehaviour{
 		
 		// Camera follow
 		
-		rig.position = Vector3.Lerp(rig.position, transform.position + cameraPositionOffset, Time.deltaTime * followSpeed);
-		if(followRotation){ rig.rotation = Quaternion.Lerp(rig.rotation, Quaternion.Euler(transform.eulerAngles + cameraRotationOffset), Time.deltaTime * rotationSpeed); }
+		ChaseCamera.position = Vector3.Lerp(ChaseCamera.position, transform.position + cameraPositionOffset, Time.deltaTime * followSpeed);
+		if(followRotation){ ChaseCamera.rotation = Quaternion.Lerp(ChaseCamera.rotation, Quaternion.Euler(transform.eulerAngles + cameraRotationOffset), Time.deltaTime * rotationSpeed); }
 		
 	}
 	
