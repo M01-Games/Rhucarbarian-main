@@ -3,7 +3,472 @@ guid: b0ec117d45891bf42bbab03f221e156c
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightUpIconsMfdUnselectable1Mtl
+    second: {fileID: 2100000, guid: d8c70fafba156f64087a32d3a44f5eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesalternatorBadge1Mtl.001
+    second: {fileID: 2100000, guid: df2615cdf8ca92f4aac78c2450e4dd76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesalternatorbladesunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 6d98f41dfdbb72042a68fed740fe44e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesbodyDefrostLinesUnselectable1Mtl.001
+    second: {fileID: 2100000, guid: 0869b2f48cb430648a574c59aa366db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesbodyLightCoversFront1Mtl.001
+    second: {fileID: 2100000, guid: 168f396134bff6446831df4d3689929d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesbodyLightCoversSide1Mtl.001
+    second: {fileID: 2100000, guid: 15b4fc01032ed0e4ab533e0b41bac741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesbodyRearLightCovers1Mtl.001
+    second: {fileID: 2100000, guid: d6873355d9508a646b4155fb011ba9a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesbodyRearLightsPrimary1Mtl.001
+    second: {fileID: 2100000, guid: 31eedcfb5076d7e4b9234ee2e5a7ec79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshescenterconsolestructurea0011Mtl.001
+    second: {fileID: 2100000, guid: 1db9a12ab925be54f9dcd33a5fc0d441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshescenterconsolestructurea0081Mtl.001
+    second: {fileID: 2100000, guid: f5b2aeed12cb20c4d802ebf0454b20ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesdashlightsCold1Mtl.001
+    second: {fileID: 2100000, guid: 2f77174dad477fc41b355cab587615fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesdashlightsOil1Mtl
+    second: {fileID: 2100000, guid: 9892108396e75204a893db45804b67db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesdashlightsWhite1Mtl
+    second: {fileID: 2100000, guid: 11bb68a9eed11d340ae0b3a8da2ff85a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesdashpada001Unselectable1Mtl.001
+    second: {fileID: 2100000, guid: 7df62b2d6006d104e87c5255a0fe42c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesdashstructurea0061Mtl
+    second: {fileID: 2100000, guid: b5bce1494785a514d92c2f58fd05c358, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesdriveshaftawdunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 62886b2bfb59f83459751e27f4174d27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesengineBayFanGrilleUnselectable1Mtl.001
+    second: {fileID: 2100000, guid: 1a83b99f145224444b741ebb356ce335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesengineBayFluid1Mtl.001
+    second: {fileID: 2100000, guid: 65d95a24a5fa66e4e988e1e62cefa37d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesengineBayReservoir1Mtl.001
+    second: {fileID: 2100000, guid: e0a14768bb59f01409c5c17c31de51d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesengineBayReservoirCap1Mtl.001
+    second: {fileID: 2100000, guid: 59c480f91a0115e4baa2e65b4f13b39c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesengineBayReservoirTransparent1Mtl.001
+    second: {fileID: 2100000, guid: 8af5fa1859c18cc40bc808068b71d66a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesengineStrutBrass1Mtl.001
+    second: {fileID: 2100000, guid: bdbc2c8f24dd5014d8b3a0fa13aaaa44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesengineStrutChromed1Mtl.001
+    second: {fileID: 2100000, guid: c9391f55e87ae9541b2c7288f345ce3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesexhaustTip1Mtl.001
+    second: {fileID: 2100000, guid: 22739a6d23052aa4abd5b9bee65c2af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesfrontBumperEnginePrimary1Mtl.001
+    second: {fileID: 2100000, guid: f49e4af28f11b93428bbc837fe2fff5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesfrontBumperGrille1Unselectable1Mtl.001
+    second: {fileID: 2100000, guid: 27110c65d07bb06499955865a54f114b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesfrontBumperGrille2Unselectable1Mtl.001
+    second: {fileID: 2100000, guid: 4709aac165e77084f8112aec51425db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesfrontR1Mtl.001
+    second: {fileID: 2100000, guid: 85bf9f778ea32dc4883e490509445448, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesfrontR1Mtl.004
+    second: {fileID: 2100000, guid: 6b37a79ea5c800e4d9817b31ccb24077, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesgaugeclustera0011Mtl.001
+    second: {fileID: 2100000, guid: b547a3c88eca2e641a5e3b4c9c8dc54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesheshaz1Mtl
+    second: {fileID: 2100000, guid: d5549b78e1326ba4aa69a9061a480568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesheshaz1Mtl.003
+    second: {fileID: 2100000, guid: 14551eecac9395244b7726caec3e3937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi4intercoolera002unselectable1Mtl.001
+    second: {fileID: 2100000, guid: bce86668d1de2fd4abf45c9d67c07137, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi4turborotora001unselectable1Mtl.001
+    second: {fileID: 2100000, guid: fe911c1e0b674da4680549f75add1267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6camshaft12vexhaustunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 24d119280fb1e5d46a2b8bb80ca10e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6cdisk1Mtl.001
+    second: {fileID: 2100000, guid: 30ace9df10ae4414cac5b0771974e0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6clutchunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 613fa93c7864c374f8fb68ce17b73206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6connectingrodsunselectable1Mtl.001
+    second: {fileID: 2100000, guid: eb0f9e6e6449e8b4c9365010b748d106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6crankshaftbearingbridgeunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 6e744532e5db68e49a13b49a3e3658ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6crankshaftunselectable1Mtl.001
+    second: {fileID: 2100000, guid: ee5dda2f4160ddd4394799d9150fa6f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6differentialunselectable1Mtl.001
+    second: {fileID: 2100000, guid: e35bfd0bfdfd66e499e8d8ab1f23c8f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6drivebeltpowersteeringunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 067a0a3fa55777c4dafc081e147f6e2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6flywheelunselectable1Mtl.001
+    second: {fileID: 2100000, guid: e71864036142fef48b852ad90ffe221b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6oildipstickunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 2524facb19b29a349a438b4c39fe276b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6oilfilterunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 598918c1f3a9d71468d529990014b5bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6powersteeringpumpunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 93c925c9a7fadfd499c16f19e70cf895, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesi6starterunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 9c4984ae4667dbd4a9049a31641fda67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesindicatorRr1Mtl.001
+    second: {fileID: 2100000, guid: 0d818943b9950254c913fb7c3f6049a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesinteriorBadgesEmbossed1Mtl.001
+    second: {fileID: 2100000, guid: 19a21fdcf2aa8e84185769842072cbe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesinteriorLights1Mtl.001
+    second: {fileID: 2100000, guid: d4522179d61656943b166a68da0631aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheslightCoverFrontSidelight1Mtl.001
+    second: {fileID: 2100000, guid: 4c4fe8d57200002408844e00312b8146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheslightCoverFrontSidelightClouded1Mtl.001
+    second: {fileID: 2100000, guid: 01a3bbfc4b78d7d478216a33b67678c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheslightFrontHeadlightBulbR1Mtl.001
+    second: {fileID: 2100000, guid: 4e46e5a2047dd7f4db2673b2f4e797fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheslightFrontSidelight1Mtl.001
+    second: {fileID: 2100000, guid: 5dc5df6706177844ba81577345ff42f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheslightRearBrakeR1Mtl.001
+    second: {fileID: 2100000, guid: 882cb0999131f634e93ca6d212aebfb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheslightRearFogBulb1Mtl.001
+    second: {fileID: 2100000, guid: 01c35d2010788624c931282ab7b93673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshespedals1Mtl.001
+    second: {fileID: 2100000, guid: 00fd88d97c462904496c4a491de06e4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesrb26campulleyintakeunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 09ba770bc64129b4cb143be19ac1715f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesrb26coilscoverUnselectable1Mtl.001
+    second: {fileID: 2100000, guid: 03394fb926782764ebd6714e4d6ce70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesrb26enginefanunselectable1Mtl.001
+    second: {fileID: 2100000, guid: cee019704aae48649a4a4ce87d946213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesrb26exhaustheatshieldunselectable1Mtl.001
+    second: {fileID: 2100000, guid: fd8ef5ed43020b04a910b4c296f1bf92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesrb26fuelrailunselectable1Mtl.001
+    second: {fileID: 2100000, guid: ed73207f0bcc3174c8eed9e953962bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesrb26oilpanunselectable1Mtl.001
+    second: {fileID: 2100000, guid: 70796c120c6f50f4b968308f7a87d1fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrearMirrorPlastic1Mtl
+    second: {fileID: 2100000, guid: b79758862adb2cd44b6199753bca7009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrearSeatsPrimary1Mtl.001
+    second: {fileID: 2100000, guid: 78bed3fa360794f43b2b3abbde67188d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrearSeatsSecondary1Mtl.001
+    second: {fileID: 2100000, guid: 9a839636970cb884cb191a1faba52fd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrevLightRedline1Mtl
+    second: {fileID: 2100000, guid: 71497dbbd1d2acc4eac839987379436b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrBadge1Mtl
+    second: {fileID: 2100000, guid: e1d388c4cd14a844996b1e87aa8b1b86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrCal0011Mtl
+    second: {fileID: 2100000, guid: 164b43357f2038341abac71d5ca2e446, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrCal0021Mtl
+    second: {fileID: 2100000, guid: 669609902d61aa24e85bbc63342fa0bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrCal0021Mtl.003
+    second: {fileID: 2100000, guid: 8bb63a1a59dd883478127b76d444dbd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrCal1Mtl
+    second: {fileID: 2100000, guid: 7c7be4bbcb6de6141bbbf17447ada9dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrDiskEdge1Mtl
+    second: {fileID: 2100000, guid: 5c973b75744294749ad4da0bbb19e4b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrRim1Mtl
+    second: {fileID: 2100000, guid: 4d903e91109abd34c909609b53853390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesrrTyre1Mtl
+    second: {fileID: 2100000, guid: 8a79a55d117effa47824c2aafbb3b9b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesseatbelt1Mtl.001
+    second: {fileID: 2100000, guid: 33a70e5081d802442ae780bd9eb2c7cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesseatbeltla0041Mtl
+    second: {fileID: 2100000, guid: c9a067d35ea17274ea9fc8c1cc1b2636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesseatbeltla0071Mtl
+    second: {fileID: 2100000, guid: 5bdbe37d26733a749868d005a27ae71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesseatsPrimary1Mtl
+    second: {fileID: 2100000, guid: 295a4e98f9cf3b64c96515ec94bec768, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesseatsSecondary1Mtl
+    second: {fileID: 2100000, guid: 9944ca0bc59939341864e9fac0f7bb9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesseatsSteel1Mtl
+    second: {fileID: 2100000, guid: 31f29ae6f0e4b054f9924b5dad329987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshesseatsStitchingUnselectable1Mtl
+    second: {fileID: 2100000, guid: 92cdc2d14073af34d93c4cbc35f057c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshessideLogos1Mtl.001
+    second: {fileID: 2100000, guid: 8cbf2314758a20b48b92e14987cccf4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshessparkplugsunselectable1Mtl.001
+    second: {fileID: 2100000, guid: aedf59de62690d14793fa8fc302e0342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshessteeringWheelBadgesEmbossed1Mtl
+    second: {fileID: 2100000, guid: 535a4ebc87a22ba4faf1636a0a87621e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MeshessteeringWheelStitchingUnselectable1Mtl
+    second: {fileID: 2100000, guid: fa399f79a430e2d4e96ede75be8e0840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheswingCarbon2Mtl.001
+    second: {fileID: 2100000, guid: 4698a2281fe44a24eb68da65e360ee51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesheswingChrome1Mtl.001
+    second: {fileID: 2100000, guid: 4827581ef6c3a874ebc4bda3b300b3d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MfdFront1Mtl.001
+    second: {fileID: 2100000, guid: bcdb40d8c338c2546a3bb1c940d42060, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MfdRear1Mtl.001
+    second: {fileID: 2100000, guid: 4beb9ffe08371dc41853ae2e9e2688c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Needle1Mtl.001
+    second: {fileID: 2100000, guid: 6f4c6bcf37ff98c41b6bc38a6522cdcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Needle51Mtl
+    second: {fileID: 2100000, guid: 0bc7d7fdefd8b81469f501725506a1b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RadioLcd1Mtl
+    second: {fileID: 2100000, guid: 093fc88b36913474cb15ca4a2d565137, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

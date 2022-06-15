@@ -3,7 +3,162 @@ guid: f3f691e245b1abc4db37473582a8bc5e
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 1014915624155c144aca0a8f3dd2e4bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carbon
+    second: {fileID: 2100000, guid: b53e3efae7faf6c488865294f465d122, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dashboard
+    second: {fileID: 2100000, guid: 3dce3eaa16468734fadf471b382f7a5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dashboard glass
+    second: {fileID: 2100000, guid: de3f376b971b35e488ee0dbdc69e764d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door peakers
+    second: {fileID: 2100000, guid: ace025820a8ec834fb03c5cb520400a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 9c6b1ee74bd10bc4dab3695bf4282d3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front glass
+    second: {fileID: 2100000, guid: 6c9db87ff334c9b4690449c7aade6daf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: baaa1191f0ba4ff48b593fc2b953a6bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glossy black
+    second: {fileID: 2100000, guid: f68d38e8caedfba4a824171411d556ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grey
+    second: {fileID: 2100000, guid: c46d4383f7a6b0a49872563a584b0377, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Heavy black
+    second: {fileID: 2100000, guid: 84a14e367141f874696b9ca082d9891b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: 1065f243989242e4f8507f476b8145a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior 2
+    second: {fileID: 2100000, guid: 753ec9582cbb41e41af9c7b4e1c86ee8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior 3
+    second: {fileID: 2100000, guid: 27f64e84675e8d04e83dd2265c4f6df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 5fe88d0efd5b71648804a927076f3adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat black
+    second: {fileID: 2100000, guid: 51b05ff7697deb9489ca306849a2dce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: c77e18149dca561419e386340cd01f2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror
+    second: {fileID: 2100000, guid: 481e99a3421143045aa5ec308cfe63db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Miscs
+    second: {fileID: 2100000, guid: 5b06ff329f6e47b48b6cf465afc5ab10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Needle
+    second: {fileID: 2100000, guid: d6ebcb21be1d1104dbe01f94061eb215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 1f21a0f9f20238445a225300d1ad9336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red lights
+    second: {fileID: 2100000, guid: 11144328c9dd1ee4097077a1be4b42e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 8e32ed68a5948e14fa6a9a5a170f28a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat red
+    second: {fileID: 2100000, guid: ae4a8f5eb678a464084e59bb6ed9417b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side lights
+    second: {fileID: 2100000, guid: c5f6bea050b490941b88daa388781fda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire
+    second: {fileID: 2100000, guid: 2450ca7a02eac7f48a688ec4fc8daa4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel
+    second: {fileID: 2100000, guid: 5a205c5eae080604787a55934401790c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 0f86c339251f934458ffd3968c9a2980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wipers
+    second: {fileID: 2100000, guid: 5f0ea650bd3f2ec40b81487768cc058a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow lights
+    second: {fileID: 2100000, guid: 1160347661b872a4a8e390154cc92d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 6154e90ffa3735e4b995a9bdb54eb283, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

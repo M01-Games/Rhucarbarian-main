@@ -3,7 +3,112 @@ guid: 7c03f1c08bce70d4f8941dc055e90c0d
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caliper1.001
+    second: {fileID: 2100000, guid: bd06e75cf90ff3b47afe84f49519f571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disk1.001
+    second: {fileID: 2100000, guid: a0e0f09517c38954cbc619d82d6451ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Enginetexture1Mtl.001
+    second: {fileID: 2100000, guid: 581ca94bbe8c402498e9ae6cf5949ba9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Enginetexture2Mtl.001
+    second: {fileID: 2100000, guid: c159fbac64ce42d499188c72177029b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exhaust1Mtl.001
+    second: {fileID: 2100000, guid: f0d39545cf4aa4847a47df0b33e50677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F1Mtl.001
+    second: {fileID: 2100000, guid: a88235cea705f074ea3f55fcd9a57dc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fogs1Mtl.001
+    second: {fileID: 2100000, guid: 7df3a8684ae8bf849a8f7fb8eee1eb19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fri1Mtl.001
+    second: {fileID: 2100000, guid: 330c9f2f702eadf4195378c9e5c67336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass1Mtl.001
+    second: {fileID: 2100000, guid: fa48e5182c1750040807b6e4e5e543f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass3Mtl.001
+    second: {fileID: 2100000, guid: d60f0daa10f08b24e9205dcf061889a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior.001
+    second: {fileID: 2100000, guid: deca831ec0b7e214b87e605419473cc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior1Mtl.001
+    second: {fileID: 2100000, guid: 37bbc8b56020fd847bece64541cd6d8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror1Mtl.001
+    second: {fileID: 2100000, guid: 5295f2d81551fa24dbd23848add66a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Primary1.001
+    second: {fileID: 2100000, guid: 0d856cf3519abde4b8fcac40bfbaaf5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rim1.001
+    second: {fileID: 2100000, guid: fe4697f9ad504ec41a044387b0bdb040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rv1Mtl.001
+    second: {fileID: 2100000, guid: 690629784c3a1b34a896858c8b1d29ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen1Mtl.001
+    second: {fileID: 2100000, guid: 24f4cb8b88ad6d54391dacfa6b4387a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Secondary2Mtl.001
+    second: {fileID: 2100000, guid: db09724617fdb96419d9e3b3ba3aab84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire1.001
+    second: {fileID: 2100000, guid: 3783ad0f714a9eb4482fb04772ee3f27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tl1Mtl.001
+    second: {fileID: 2100000, guid: a6641dbb0e7a61547b3312f5152cffc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vents2Mtl.001
+    second: {fileID: 2100000, guid: bf3c910f263becb44922b33b3e1edbb9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
