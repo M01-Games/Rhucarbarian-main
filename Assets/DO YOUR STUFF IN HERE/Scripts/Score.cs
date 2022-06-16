@@ -14,6 +14,17 @@ public class Score : MonoBehaviour
     public GameObject gameUI;
     public GameObject notEnoughCash; //The text that says "Not Enough Cash"
     public PlayerHealth playerHealth;
+
+    //Cars and Cameras
+    public Vehicle vehicleScript;
+    public GameObject[] gulfKarto;
+    public GameObject[] hundaCivik;
+    public GameObject[] teyotoSopa;
+    public GameObject[] nussanMoonline;
+    public int gulfKartoPrice = 0;
+    public int hundaCivikPrice = 500;
+    public int teyotoSopaPrice = 750;
+    public int nussanMoonlinePrice = 1000;
         #endregion
 
         #region Methods
@@ -23,16 +34,14 @@ public class Score : MonoBehaviour
         deliveryCashDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = "Cash: ¥" + pendingPlayerCash; //Changes the text to display like "cash: 0"
     }
 
-
     public void GoodDestuctionCash() //The players reward for a successful delivery
     {
-        pendingPlayerCash += 100; //Adds 100 to the players pending cash
+        pendingPlayerCash += 250; //Adds 100 to the players pending cash
     }
     public void BadDestuctionCash()
     {
         pendingPlayerCash -= 100;
     }
-
 
     public void LevelEndSuccess() //The outcome if the player gets home safely
     {
@@ -52,20 +61,122 @@ public class Score : MonoBehaviour
         playerHealth.playerHealth = 100f;
     }
 
-
-    public void Upgreade() //The timer upgrade the player can buy on the game start UI
+    public void GulfKarto() //The timer upgrade the player can buy on the game start UI
     {
-        if(playerCash < 500) //Checks if the players current cash is less than 500 if so...
+        if(playerCash < gulfKartoPrice) //Checks if the players current cash is less than 500 if so...
         {
             StartCoroutine(NotEnoughCash()); //Starts the NotEnoughCash protocall
         }
         else //If not
         {
-        playerCash -= 500; //Takes away 500 from the player current cash
-        //UPGARDE
+        playerCash -= gulfKartoPrice; //Takes away 500 from the player current cash
+        gulfKartoPrice = 0;
+        vehicleScript.acceleration = 15f;
+        foreach(GameObject gulfkarto in gulfKarto)
+            {
+            gulfkarto.SetActive(true);
+            }
+        foreach(GameObject hundacivik in hundaCivik)
+            {
+            hundacivik.SetActive(false);
+            }
+        foreach(GameObject teyotosopa in teyotoSopa)
+            {
+            teyotosopa.SetActive(false);
+            }
+        foreach(GameObject nussanmoonline in nussanMoonline)
+            {
+            nussanmoonline.SetActive(false);
+            }
         }
     }
-
+    public void HundaCivik() //The timer upgrade the player can buy on the game start UI
+    {
+        if(playerCash < hundaCivikPrice) //Checks if the players current cash is less than 500 if so...
+        {
+            StartCoroutine(NotEnoughCash()); //Starts the NotEnoughCash protocall
+        }
+        else //If not
+        {
+        playerCash -= hundaCivikPrice; //Takes away 500 from the player current cash
+        hundaCivikPrice = 0;
+        vehicleScript.acceleration = 20f;
+        foreach(GameObject gulfkarto in gulfKarto)
+            {
+            gulfkarto.SetActive(false);
+            }
+        foreach(GameObject hundacivik in hundaCivik)
+            {
+            hundacivik.SetActive(true);
+            }
+        foreach(GameObject teyotosopa in teyotoSopa)
+            {
+            teyotosopa.SetActive(false);
+            }
+        foreach(GameObject nussanmoonline in nussanMoonline)
+            {
+            nussanmoonline.SetActive(false);
+            }
+        }
+    }
+    public void TeyotoSopa() //The timer upgrade the player can buy on the game start UI
+    {
+        if(playerCash < teyotoSopaPrice) //Checks if the players current cash is less than 500 if so...
+        {
+            StartCoroutine(NotEnoughCash()); //Starts the NotEnoughCash protocall
+        }
+        else //If not
+        {
+        playerCash -= teyotoSopaPrice; //Takes away 500 from the player current cash
+        teyotoSopaPrice = 0;
+        vehicleScript.acceleration = 25f;
+        foreach(GameObject gulfkarto in gulfKarto)
+            {
+            gulfkarto.SetActive(false);
+            }
+        foreach(GameObject hundacivik in hundaCivik)
+            {
+            hundacivik.SetActive(false);
+            }
+        foreach(GameObject teyotosopa in teyotoSopa)
+            {
+            teyotosopa.SetActive(true);
+            }
+        foreach(GameObject nussanmoonline in nussanMoonline)
+            {
+            nussanmoonline.SetActive(false);
+            }
+        }
+    }
+    public void NussanMoonline() //The timer upgrade the player can buy on the game start UI
+    {
+        if(playerCash < nussanMoonlinePrice) //Checks if the players current cash is less than 500 if so...
+        {
+            StartCoroutine(NotEnoughCash()); //Starts the NotEnoughCash protocall
+        }
+        else //If not
+        {
+        playerCash -= nussanMoonlinePrice; //Takes away 500 from the player current cash
+        nussanMoonlinePrice = 0;
+        vehicleScript.acceleration = 30f;
+        foreach(GameObject gulfkarto in gulfKarto)
+            {
+            gulfkarto.SetActive(false);
+            }
+        foreach(GameObject hundacivik in hundaCivik)
+            {
+            hundacivik.SetActive(false);
+            }
+        foreach(GameObject teyotosopa in teyotoSopa)
+            {
+            teyotosopa.SetActive(false);
+            }
+        foreach(GameObject nussanmoonline in nussanMoonline)
+            {
+            nussanmoonline.SetActive(true);
+            }
+        }
+    }
 
     IEnumerator NotEnoughCash() //The NotEnoughCash protocall
     {

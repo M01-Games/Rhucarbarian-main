@@ -6,25 +6,16 @@ public class Menus : MonoBehaviour
 {
     public GameObject GameUI;
     public GameObject MenuUI;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject[] Player;
+    public GameObject StartPosition;
 
     public void PlayButton()
     {
         MenuUI.SetActive(false);
         GameUI.SetActive(true);
+        foreach(GameObject player in Player)
+        {
+            player.transform.position = StartPosition.transform.position;
+        }
     }
-
-
 }

@@ -18,7 +18,6 @@ public class Enemy : MonoBehaviour
         #region Methods
     void Start()
     {
-        playerObject = GameObject.FindWithTag("Player").transform; //This finds the player object within unity
         nav = GetComponent<NavMeshAgent>(); //This gets the navmesh from the floor
     }
     void Update()

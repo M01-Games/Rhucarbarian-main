@@ -5,6 +5,7 @@ using UnityEngine;
 public class ToggleOnOff : MonoBehaviour
 {
     public GameObject destroyedobject;
+    public float waitTime = 0.5f;
 
     public void destroy() 
     {
@@ -15,7 +16,7 @@ public class ToggleOnOff : MonoBehaviour
     {
         Debug.Log("Coroutine"); //Tells the system to display the text in "..."
         destroyedobject.SetActive(false); 
-        yield return new WaitForSeconds(2); //Waits 2 seconds
+        yield return new WaitForSeconds(waitTime); //Waits 2 seconds
         destroyedobject.SetActive(true); 
     }
 }
